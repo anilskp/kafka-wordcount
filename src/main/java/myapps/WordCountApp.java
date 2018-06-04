@@ -43,7 +43,7 @@ public class WordCountApp {
         return builder.build();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         Properties config = new Properties();
         config.put(StreamsConfig.APPLICATION_ID_CONFIG, "wordcount-application");
         config.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "192.168.56.111:9092");
